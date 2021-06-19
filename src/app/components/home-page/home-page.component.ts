@@ -19,7 +19,6 @@ export class HomePageComponent implements OnInit {
     this.infoPost.imagem = '';
     this.infoPost.texto = 'Iniciativa de apoio e informação a mulheres vítimas de violência';
    }
-
   ngOnInit(): void {
   }
 
