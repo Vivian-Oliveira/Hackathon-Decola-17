@@ -9,7 +9,7 @@ import { HelpPageComponent } from './components/help-page/help-page.component';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 import { LawPageComponent } from './components/law-page/law-page.component';
 import { MatCardModule } from '@angular/material/card';
-
+import { LawCardComponent } from './components/law-card/law-card.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -30,7 +30,8 @@ import { InstituicoesCardComponent } from './components/instituicoes-card/instit
     HelpPageComponent,
     MenuTemplateComponent,
     LawPageComponent,
-    InstituicoesCardComponent
+    InstituicoesCardComponent,
+    LawCardComponent
   ],
   imports: [
     BrowserModule,

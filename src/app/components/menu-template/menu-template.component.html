@@ -5,13 +5,13 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item routerLink="/">Home</a>
+      <a mat-list-item routerLink="/" >Home</a>
       <a mat-list-item routerLink="/Help">Ajuda</a>
       <a mat-list-item routerLink="/Law">Leis</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar class="toolbar">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -20,7 +20,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Violência contra a Mulher</span>
+      <span class='font'>Violência contra a Mulher</span>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
