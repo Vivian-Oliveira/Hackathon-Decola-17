@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  
+  public logoUrl = ''
+  public titulo = 'Sobre a violencia'
+  public descricao = 'algo relacionado'
 
   constructor() { }
 
