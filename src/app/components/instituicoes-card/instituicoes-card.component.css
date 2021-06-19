@@ -14,12 +14,21 @@ img {
 
 
 .info .inst {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .site {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   display: block;
 
+}
+
+.instname {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
 }
