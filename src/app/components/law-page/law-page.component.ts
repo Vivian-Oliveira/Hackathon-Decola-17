@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LeisApiService } from 'src/app/services/leis-api.service';
 
 @Component({
   selector: 'app-law-page',
