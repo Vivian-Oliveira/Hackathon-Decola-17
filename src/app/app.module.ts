@@ -10,7 +10,6 @@ import { MenuTemplateComponent } from './components/menu-template/menu-template.
 import { LawPageComponent } from './components/law-page/law-page.component';
 import { MatCardModule } from '@angular/material/card';
 
-
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -19,7 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { InstituicoesCardComponent } from './components/instituicoes-card/instituicoes-card.component';
-
+import { LawCardComponent } from './components/law-card/law-card.component';
 
 
 
@@ -30,7 +29,8 @@ import { InstituicoesCardComponent } from './components/instituicoes-card/instit
     HelpPageComponent,
     MenuTemplateComponent,
     LawPageComponent,
-    InstituicoesCardComponent
+    InstituicoesCardComponent,
+    LawCardComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +44,7 @@ import { InstituicoesCardComponent } from './components/instituicoes-card/instit
     MatIconModule,
     MatListModule,
     HttpClientModule
+
 
 
   ],
