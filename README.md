@@ -2,10 +2,10 @@
 #### Violência contra a mulher
 
 ### Membros
-### Gabrielle da Luz Rossi   :woman:
-### Marilha da Silva Cariolano   :woman:
-### Jose Roberto Sperandio   :man:
-### Vivian de Oliveira Costa   :woman:
+#### Gabrielle da Luz Rossi   :woman:
+#### Marilha da Silva Cariolano   :woman:
+#### Jose Roberto Sperandio   :man:
+#### Vivian de Oliveira Costa   :woman:
 <hr />
 .
 <h4 align='center'>
