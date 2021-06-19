@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { InstituicoesMulheres } from 'src/app/services/instituicoes-mulheres';
 
 @Component({
   selector: 'app-help-page',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./help-page.component.css']
 })
 export class HelpPageComponent implements OnInit {
+
+
 
   constructor() { }
 
