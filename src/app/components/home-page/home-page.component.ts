@@ -15,9 +15,9 @@ export class HomePageComponent implements OnInit {
 
   constructor() {
     this.infoPost = new HomePageComponent();
-    this.infoPost.titulo = 'Primeira postagem!';
-    this.infoPost.imagem = 'kkkk';
-    this.infoPost.texto = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a tortor eu  odio pellentesque ullamcorper. Duis non ipsum mauris. Nullam dolor dui';
+    this.infoPost.titulo = 'Não se cale!';
+    this.infoPost.imagem = '';
+    this.infoPost.texto = 'Iniciativa de apoio e informação a mulheres vítimas de violência';
    }
 
   ngOnInit(): void {
