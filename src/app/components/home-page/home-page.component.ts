@@ -11,7 +11,10 @@ export class HomePageComponent implements OnInit {
   public titulo = 'Mulheres Felizes Brilham Mais!!!!'
   public descricao = 'O autocuidado é essencial para a nossa saúde mental e bem-estar, e ouvir o que o nosso corpo precisa faz com que nos tornemos fortes e mais felizes. Quando aceitamos nossos pontos fortes e fracos, quando nos aceitamos como somos, ganhamos mais auto confiança.'
 
-  constructor() { }
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }
