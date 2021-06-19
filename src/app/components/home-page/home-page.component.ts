@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  
+  titulo: string = '';
+  imagem: string = '';
+  texto: string = '';
 
-  constructor() { }
+  public infoPost: HomePageComponent;
+
+  constructor() {
+    this.infoPost = new HomePageComponent();
+    this.infoPost.titulo = 'Não se cale!';
+    this.infoPost.imagem = '';
+    this.infoPost.texto = 'Iniciativa de apoio e informação a mulheres vítimas de violência';
+  }
 
   ngOnInit(): void {
   }
