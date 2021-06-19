@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input } from '@angular/core';
+import {InstituicoesMulheres} from 'src/app/services/instituicoes-mulheres';
 
 @Component({
   selector: 'app-instituicoes-card',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./instituicoes-card.component.css']
 })
 export class InstituicoesCardComponent implements OnInit {
+
+
+  @Input() instituicao: InstituicoesMulheres | undefined;
 
   constructor() { }
 
