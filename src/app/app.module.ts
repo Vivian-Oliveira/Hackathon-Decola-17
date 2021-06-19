@@ -8,6 +8,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { HelpPageComponent } from './components/help-page/help-page.component';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 import { LawPageComponent } from './components/law-page/law-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LawPageComponent } from './components/law-page/law-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
