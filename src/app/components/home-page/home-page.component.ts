@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  public logoUrl = 'http://blog.donadivasemijoias.com.br/wp-content/uploads/2017/03/mulheres-felizes-realizadas-pessoal-e-financeiramente.jpg'
-  public titulo = 'Mulheres Felizes Brilham Mais!!!!'
-  public descricao = 'O autocuidado é essencial para a nossa saúde mental e bem-estar, e ouvir o que o nosso corpo precisa faz com que nos tornemos fortes e mais felizes. Quando aceitamos nossos pontos fortes e fracos, quando nos aceitamos como somos, ganhamos mais auto confiança.'
+  public logoUrl = 'https://uploads.metropoles.com/wp-content/uploads/2020/11/06184425/WhatsApp-Image-2020-11-06-at-18.41.20-600x400.jpeg'
+  public titulo = 'Violência contra mulher!!!!'
+  public descricao = 'A violência contra a mulher ainda é um problema fortemente enraizado no mundo. Ela não é exclusividade de alguns países e de algumas culturas. Ela é resultado de uma cultura patriarcal que está vinculada aos fundamentos de nossa sociedade. A violência contra a mulher expressa-se de várias maneiras, desde o estupro até a violência psicológica, e precisa ser combatida com veemência e urgência. As consequências desse tipo de violência são terríveis para as vítimas, podendo levá-las à morte.'
 
 
   constructor() {
