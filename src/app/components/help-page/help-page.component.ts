@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { InstituicoesApiService } from 'src/app/services/instituicoes-api.service';
+import { InstituicoesMulheres } from 'src/app/services/instituicoes-mulheres';
+
 
 @Component({
   selector: 'app-help-page',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelpPageComponent implements OnInit {
 
-  constructor() { }
+  listaDeInstituicoes: InstituicoesMulheres[] = [];
+
+  constructor(public instituicoes: InstituicoesApiService) { }
 
   ngOnInit(): void {
+    this.instituicoes.get().subscribe({
+      next: (retornarApi) => {
+        this.listaDeInstituicoes = retornarApi;
+      }
+
+    })
   }
 
 }
