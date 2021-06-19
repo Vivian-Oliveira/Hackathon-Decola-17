@@ -8,7 +8,19 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { HelpPageComponent } from './components/help-page/help-page.component';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 import { LawPageComponent } from './components/law-page/law-page.component';
+import { MatCardModule } from '@angular/material/card';
+
+
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +34,16 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatCardModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
     HttpClientModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
