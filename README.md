@@ -1,4 +1,4 @@
-#  :pino: HACKATON DECOLA :rocket: :rocket: :rocket:
+# HACKATON DECOLA :rocket: :rocket: :rocket:
 #### Violência contra a mulher
 
 ### Membros
