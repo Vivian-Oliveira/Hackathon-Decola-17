@@ -8,7 +8,7 @@ import { LeisApiService } from 'src/app/services/leis-api.service';
   styleUrls: ['./law-card.component.css']
 })
 export class LawCardComponent implements OnInit {
-  @Input() law: ApiModel | undefined
+  @Input() law: ApiModel | undefined;
 
   constructor() { }
 
