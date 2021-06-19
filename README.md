@@ -9,7 +9,7 @@
 <hr />
 .
 <h4 align='center'>
-:apontando_para_a_direita: Status: Em andamento
+:point_right: Status: Em andamento
 </h4>
 <hr />
 ### :brilhos: Funcionamento:
