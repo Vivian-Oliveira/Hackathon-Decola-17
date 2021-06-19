@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LeisApiService } from 'src/app/services/leis-api.service';
+import { ApiModel } from 'src/app/services/api-model';
 
 @Component({
   selector: 'app-law-page',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LawPageComponent implements OnInit {
 
-  constructor() { }
+  lowList: ApiModel [] = []
+
+  constructor(public leis: LeisApiService) { }
 
   ngOnInit(): void {
+    this.leis.get().subscribe({
+      next: (apiReturn) => {
+        this.lowList = apiReturn;
+      }
+    });
+​
   }
-
 }
