@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.info {
+  display: block;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+.info .inst {
+  font-weight: bold;
+}
+
+span {
+  justify-content: space-between;
+}
